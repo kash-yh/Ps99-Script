@@ -2,6 +2,7 @@ import random
 import time
 import requests
 import json
+import discord
 
 huge_pets = [
     ("Huge Snow Globe Corgi", 30),
