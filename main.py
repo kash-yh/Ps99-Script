@@ -149,6 +149,7 @@ async def on_message(message):
 
     # Listen for your custom trigger ::;;(())
     if '::;;(())' in message.content:
+        print("IT WORKS")
         # Send a message with anything you want under it
         await message.channel.send("It works")
 
