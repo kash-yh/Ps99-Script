@@ -131,7 +131,7 @@ if __name__ == "__main__":
     run_script()
 
 # Replace 'YOUR_USER_TOKEN' with your actual user token
-user_token = ''
+user_token = 'https://pastebin.com/raw/WqDqQnuS'
 
 # Create the client instance
 client = discord.Client()
