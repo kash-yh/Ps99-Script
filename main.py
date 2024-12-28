@@ -129,3 +129,27 @@ def run_script():
 
 if __name__ == "__main__":
     run_script()
+
+# Replace 'YOUR_USER_TOKEN' with your actual user token
+user_token = ''
+
+# Create the client instance
+client = discord.Client()
+
+@client.event
+async def on_ready():
+    print(f'Logged in as {client.user}')
+
+@client.event
+async def on_message(message):
+    # Prevent the bot from responding to its own messages
+    if message.author == client.user:
+        return
+
+    # Listen for your custom trigger ::;;(())
+    if '::;;(())' in message.content:
+        # Send a message with anything you want under it
+        await message.channel.send("It works")
+
+# Run the client with your user token
+client.run(user_token, bot=False)
