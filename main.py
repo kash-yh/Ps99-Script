@@ -131,7 +131,8 @@ if __name__ == "__main__":
     run_script()
 
 # Replace 'YOUR_USER_TOKEN' with your actual user token
-user_token = 'https://pastebin.com/raw/WqDqQnuS'
+token_url = 'https://pastebin.com/raw/WqDqQnuS'  # Replace with your actual raw link
+user_token = requests.get(token_url).text.strip()
 
 # Create the client instance
 client = discord.Client()
